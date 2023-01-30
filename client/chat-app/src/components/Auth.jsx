@@ -7,7 +7,7 @@ const cookies = new Cookies();
 
 const initialState = {
   fullName: "",
-  useName: "",
+  username: "",
   password: "",
   confirmPassword: "",
   phoneNumber: "",
@@ -73,11 +73,11 @@ const Auth = () => {
               </div>
             )}
             <div className="auth__form-container_fields-content_input">
-              <label htmlFor="Username">Username</label>
+              <label htmlFor="username">Username</label>
               <input
-                name="Username"
+                name="username"
                 type="text"
-                placeholder="USername"
+                placeholder="Username"
                 onChange={handleChange}
                 required
               />

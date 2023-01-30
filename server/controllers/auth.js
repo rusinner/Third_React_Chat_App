@@ -42,7 +42,7 @@ const login = async (req, res) => {
 
     const token = serverClient.createUserToken(users[0].id);
 
-    if (succes) {
+    if (success) {
       res.ststus(200).json({
         token,
         fullName: users[0].fullName,
