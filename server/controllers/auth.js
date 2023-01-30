@@ -1,4 +1,7 @@
-const signup = () => {};
+const signup = () => {
+  try {
+  } catch (error) {}
+};
 
 const login = () => {};
 
