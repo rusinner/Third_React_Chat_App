@@ -43,14 +43,14 @@ const login = async (req, res) => {
     const token = serverClient.createUserToken(users[0].id);
 
     if (success) {
-      res.ststus(200).json({
+      res.status(200).json({
         token,
         fullName: users[0].fullName,
         username,
         userId: users[0].id,
       });
     } else {
-      res.ststus(500).json({ message: "Incorrect password" });
+      res.status(500).json({ message: "Incorrect password" });
     }
   } catch (error) {
     console.log(error);
