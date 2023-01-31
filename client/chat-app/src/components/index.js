@@ -7,4 +7,3 @@ export { default as Auth } from "../components/Auth";
 export { default as ChannelInner } from "../components/ChannelInner";
 export { default as CreateChannel } from "../components/CreateChannel";
 export { default as EditChannel } from "../components/EditChannel";
-export { default as TeamMessage } from "../components/TeamMessage";
