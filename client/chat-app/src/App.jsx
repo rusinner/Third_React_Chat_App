@@ -49,6 +49,7 @@ function App() {
           isEditing={isEditing}
           setIsEditing={setIsEditing}
           createType={createType}
+          setCreateType={setCreateType}
         />
       </Chat>
     </div>
