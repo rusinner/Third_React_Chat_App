@@ -8,3 +8,4 @@ export { default as ChannelInner } from "../components/ChannelInner";
 export { default as CreateChannel } from "../components/CreateChannel";
 export { default as EditChannel } from "../components/EditChannel";
 export { default as UserList } from "../components/UserList";
+export { default as ResultsDropdown } from "../components/ResultsDropdown";
